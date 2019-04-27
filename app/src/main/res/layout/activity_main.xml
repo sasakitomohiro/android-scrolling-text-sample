@@ -7,21 +7,8 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <!--<com.robinhood.ticker.TickerView-->
-            <!--android:id="@+id/ticker_view"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--app:layout_constraintTop_toTopOf="parent"-->
-            <!--app:layout_constraintBottom_toBottomOf="parent"-->
-            <!--app:layout_constraintLeft_toLeftOf="parent"-->
-            <!--app:layout_constraintRight_toRightOf="parent"-->
-            <!--tools:text="1000"-->
-            <!--android:textColor="@color/colorPrimary"-->
-            <!--android:textSize="16sp"-->
-            <!--app:ticker_animationDuration="1500"/>-->
-
     <com.robinhood.ticker.TickerView
-            android:id="@+id/ticker1"
+            android:id="@+id/ticker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
